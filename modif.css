@@ -1,0 +1,88 @@
+body{
+    background-color:#374151;
+}
+.container{
+
+    background-color:#111827;
+    width:80%;
+    margin:0 auto;
+    border-radius: 30px;
+    padding:2em 0;
+}
+.confl{
+    display:flex;
+    justify-content:space-around;
+  
+}
+.title{
+    font-family: verdana ,sans-serif;
+    color:EEEEEE;
+    font-size: 3rem;
+    margin:0;
+    
+}
+@font-face {
+    font-family: cur;
+    src: url(Cursed_Timer_ULiL/CursedTimerULiL.ttf);
+}
+
+.rslt{
+    color:#F94F6D;
+    font-family:cur;
+    font-size: 4em;
+   padding: 0.5em;
+   background-color:black;
+   margin:1rem 0;
+   text-align: center;
+}
+
+button{
+    width:2rem;
+    margin:0 0.25rem;
+    height:2rem;
+    font-family: cur;
+    cursor:pointer;
+}
+.btn-con{
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+}
+h1{
+    color:#FFFFFF;
+    text-align: center;
+    font-family: lora;
+    font-size:3rem;
+}
+
+#new-game{
+    display: block;
+    margin:0 auto;
+    width:10em;
+    font-family: cursive;
+}
+.add{
+    background-color:transparent;
+    border:1px solid #FFFFFF;
+    color:#FFFFFF;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px){
+    .confl{
+        display:flex;
+        flex-direction: column;
+        justify-content:space-between;
+        gap:2em;
+        
+        
+      
+    }
+    .title{
+        font-size:2em;
+        text-align:center;
+    }
+    h1{
+        font-size:1.5em;
+    }
+}
