@@ -29,7 +29,7 @@ body{
 .rslt{
     color:#F94F6D;
     font-family:cur;
-    font-size: 4em;
+    font-size: 6rem;
    padding: 0.5em;
    background-color:black;
    margin:1rem 0;
@@ -98,12 +98,12 @@ input{
     border-radius: 0.75em;
     margin-right:  8em;
     margin-bottom:2em;
+    margin-left:0.5em;
     width: 20em;
     font-family: verdana ,sans-serif;
 }
 label{
     margin-left: 8em;
-    
     font-size:larger;
     font-weight:bold;
     font-family: verdana ,sans-serif;
