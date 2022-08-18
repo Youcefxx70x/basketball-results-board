@@ -7,10 +7,17 @@
 
 <body>
     <h1>Basketball Results Board!</h1>
+    <div id="modif-name">
+        <label for="t1" id="t1">Team1</label>
+        <input type="text" name="t1" id="i1" value="Home" maxlength="4">
+        <label for="t2">Team2</label>
+        <input type="text" name="t1" id="i2" value="Guest" maxlength="4">
+        <button id="chng" onClick="set()">SET</button>
+    </div>
     <div class="container">
     <div class="container confl">
                         <div class="inside">
-                                    <h3 class="title">Home</h3>
+                                    <h3 class="title t1" id="title1" >Home</h3>
                                     <div class="result"><h3 class="rslt" id="Home">0</h3></div>
                                     <div class="btn-con">
                                                 <button class="add add1" onClick="Hincrement1()">+1</button>
@@ -21,7 +28,7 @@
 
                         
                         <div class="inside">
-                                    <h3 class="title">Guest</h3>
+                                    <h3 class="title t2" id="title2">Guest</h3>
                                     <div class="result"><h3 class="rslt" id="Guest">0</h3></div>
                                     <div class="btn-con">
                                                 <button class="add add1" onClick="Gincrement1()">+1</button>
@@ -31,8 +38,11 @@
                         </div>
                        
     </div>
-    <button id="new-game" onclick="restart()">New Game!</button>
+    
     </div>
+    <div id="btns">
+        <button id="new-teams" onclick="chngTms()">New Teams!</button>
+        <button id="new-game" onclick="restart()">New Game!</button></div>
 
     <script src="modif.js"></script>
 

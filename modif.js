@@ -85,3 +85,19 @@ function reshigh(){
     homeScore.style.outline="none"
     guestScore.style.border="none"
     guestScore.style.outline="none"}
+
+function chngTms(){
+    document.getElementById("modif-name").style="display: block;"
+}
+function set(){
+    let t1= document.getElementById("title1");
+    let t2= document.getElementById("title2");
+    let i1=document.getElementById("i1")
+    let i2= document.getElementById("i2");
+
+    t1.textContent=i1.value;
+    t2.textContent=i2.value;
+
+    document.getElementById("modif-name").style="display: none"
+   
+}

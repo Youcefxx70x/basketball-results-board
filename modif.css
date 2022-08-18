@@ -57,7 +57,7 @@ h1{
 
 #new-game{
     display: block;
-    margin:0 auto;
+   
     width:10em;
     font-family: cursive;
 }
@@ -85,4 +85,63 @@ h1{
     h1{
         font-size:1.5em;
     }
+    #btns{
+        display:flex;
+        flex-direction: column;
+        justify-content:space-between;
+        gap:2em;
+
+    }
+}
+input{
+    padding: 0.25em;
+    border-radius: 0.75em;
+    margin-right:  8em;
+    margin-bottom:2em;
+    width: 20em;
+    font-family: verdana ,sans-serif;
+}
+label{
+    margin-left: 8em;
+    
+    font-size:larger;
+    font-weight:bold;
+    font-family: verdana ,sans-serif;
+    color:#FFFFFF;
+}
+#modif-name{
+    text-align: center;
+    display: none;
+    margin-bottom:4em;
+    margin-top: 4em;
+
+    
+}
+#new-teams{
+    display: block;
+    
+    width:10em;
+    font-family: cursive;
+
+}
+#btns{
+    margin: 4em auto;
+    width:80%;
+    display: flex;
+    /*justify-content: center;*/
+    justify-content: space-evenly;
+    gap: 3em;
+}
+
+#chng{
+    display: block;
+   
+    width:10em;
+    font-family: cursive;
+    margin: 0 auto;
+}
+
+.inside{
+    width: 25%;
+    text-align: center;
 }
